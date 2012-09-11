@@ -1,0 +1,14 @@
+body{
+	background-color: blue;
+
+
+}
+header{
+	font-size: 1.2em;
+	color: red;
+
+}
+header p{
+	font-size: 0.9em;
+	color: yellow;
+}
