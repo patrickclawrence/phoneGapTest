@@ -2,14 +2,14 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.airgames.PhoneGapTest"
-        version   = "99.999">
-    <name>Phone Gap Test</name>
+        version   = "0.0.1">
+    <name>Air Games Beta</name>
 
     <description>
-        Testiing the use of Phone Gap and it's application to airGames
+      A Beta Version of Air Games running navtively on devices.
     </description>
 
-    <author href="http://airg.com" email="support@airg.com">
+    <author href="http://airg.com" email="patrickl@airg.com">
         Patrick Lawrence
     </author>
 
@@ -18,7 +18,16 @@
     <preference name="phonegap-version" value="2.0.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
-    <preference name="fullscreen"       value="false" />
+    <preference name="fullscreen"       value="true" />
+    <preference name="stay-in-webview" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+
+    
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>    
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
 
     <icon src="icon.png" />
     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
@@ -34,6 +43,8 @@
     <icon src="res/icon/webos/icon-64.png"          gap:platform="webos" />
     <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
+
+    <access origin="http://airgames.com" subdomains="true" />
 
     <gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
     <gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
