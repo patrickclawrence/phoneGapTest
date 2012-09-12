@@ -47,6 +47,7 @@
     <access origin="http://airg,airgames.com" subdomains="true" />
     <access origin="http://google.com" subdomains="true" />
 
+    <gap:splash src="res/landing.png" />
     <gap:splash src="res/landing.png"     gap:platform="android" gap:density="ldpi" />
     <gap:splash src="res/landing.png"     gap:platform="android" gap:density="mdpi" />
     <gap:splash src="res/landing.png"     gap:platform="android" gap:density="hdpi" />
