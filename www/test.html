@@ -1,0 +1,22 @@
+<html>
+	<head>
+    <script src="/gc/sm/static/libs/jquery-ui.js"></script>
+	<script type="text/javascript">
+		jQuery.noConflict();
+		function s(contacts){
+			for(i in contacts){
+				jQuery('#contacts').append(jQuery('<li>').html(contacts[i].displayName));	
+			]
+		}	
+		function e(errMsg){
+			alert(errMsg);
+		}
+		navigator.contacts.find(['displayName', s, e, {}]);
+	</script>
+	</head>
+	<body>
+	<ul id="contacts">
+		
+	</ul>
+	</body>
+<html>
