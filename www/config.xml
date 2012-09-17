@@ -46,6 +46,7 @@
     <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" /-->
 
+    <access origin="http://beta.patrickl.airg.us" subdomains="true" />
     <access origin="http://airg,airgames.com" subdomains="true" />
     <access origin="http://google.com" subdomains="true" />
 
